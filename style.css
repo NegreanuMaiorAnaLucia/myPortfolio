@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+body {
+    font-family: "Pompiere";
+    font-weight: 500;
+    background-color: #f9f0f0;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.btn-clr{
+    color: #624234;
+    border-color: #624234;
+}
+.btn-clr:hover{
+    color: #fff;
+    border-color: #624234;
+    background-color: #624234;
+}
+
+.big-brown{
+    filter: brightness(40%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.big-brown-title {
+    font-family: 'Luckiest Guy';
+    font-size: 66px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+}
+
+.small-brown-sub {
+    font-size: 40px;
+    color: #dccdbc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -360%);
+}
+
+.sm-cream{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 100px;
+    border-radius: 100%;
+}
+
+.sm-cream-div {
+    float: right;
+}
+
+.sm-cream-2{
+    width: 350px;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: 3%;
+    border-radius: 100%;
+}
+
+.p-2 {
+    width: 1000px;
+    top: 0%;
+    left: 0%;
+    margin-top: -360px;
+    transform: translate(60%, 50%);
+    float: left;
+}
+
+.social {
+    width: 100px; 
+    height: 100px;
+    margin: 20px;
+    border-radius: 100%;
+    filter: brightness(80%);
+}
