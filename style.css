@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
 
 body {
-    font-family: "Pompiere";
+    font-family: 'Orbit';
     font-weight: 500;
     background-color: #f9f0f0;
 }
@@ -31,6 +31,30 @@ p{
     position: relative;
     text-align: center;
     color: white;
+}
+
+.contact-div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+  
+  .left {
+    width: auto;
+  }
+  
+  
+  .middle {
+    width: auto;
+  }
+
+  .right {
+    width: auto;
+    color: #204620;
+  }
+
+.myForm {
+    width: 300px;
 }
 
 .big-brown-title {
@@ -80,10 +104,43 @@ p{
     float: left;
 }
 
-.social {
-    width: 100px; 
-    height: 100px;
-    margin: 20px;
-    border-radius: 100%;
-    filter: brightness(80%);
+.logo {
+    width: 50px;
+    height: 50px;
+    filter: opacity(65%);
 }
+
+.searchbar {
+    width: 300px;
+}
+
+.sm-brown{
+    filter: brightness(40%);
+}
+
+.img-div {
+    width: auto;
+    height: 300px;
+}
+
+.sm-brown-sub {
+    text-align: center;
+    width: auto;
+    font-size: 60px;
+    font-family: 'Luckiest Guy';
+    color: #dccdbc;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -163px);
+}
+
+.footer {
+    background-color: #0f1421bf;
+    color:#dccdbc;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
