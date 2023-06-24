@@ -103,13 +103,13 @@ h4 {
       }
       /* DAY CLASSES */   
       .hero-gradient.day-mode1 {
-        background-image: linear-gradient(50deg, #ffd7f1 0%, #589de3 100%) !important;
+        background-image: linear-gradient(50deg, #edb6da 0%, #589de3 100%) !important;
     }
       .hero-gradient.day-mode1 h2 {
-        color: #001933 !important;
+        color: #003366 !important;
       }
       .hero-gradient.day-mode1 p {
-        color: #004c99 !important;
+        color: #0066cc !important;
       }
 
       .day-mode2 {
