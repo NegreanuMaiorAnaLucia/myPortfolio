@@ -95,11 +95,59 @@ h4 {
       }
       
       .switch:checked + .switch-label {
-        background-color: #2196F3;
+        background-color: #ffc2ea;
       }
       
       .switch:checked + .switch-label:before {
         transform: translateX(26px);
+      }
+      /* DAY CLASSES */   
+      .hero-gradient.day-mode1 {
+        background-image: linear-gradient(50deg, #ffd7f1 0%, #589de3 100%) !important;
+    }
+      .hero-gradient.day-mode1 h2 {
+        color: #001933 !important;
+      }
+      .hero-gradient.day-mode1 p {
+        color: #004c99 !important;
+      }
+
+      .day-mode2 {
+        background-color: #cce5ff !important;
+      }
+      .about.day-mode2 p {
+        color: #003366 !important;
+      }
+      .about.day-mode2 h1 {
+        color: #001933;
+      }
+      .about.day-mode2 ul {
+        color: #004c99;
+      }
+
+      .services.day-mode3 {
+        background-color: #3299ff;
+      }
+      .card.day-mode3 {
+        background-color: #003366;
+      }
+      .card.day-mode3:hover {
+        background-color: #001933;
+      }
+
+      .portfolio.day-mode4 {
+        background-color: #66B2FF;
+      }
+
+      .contact.day-mode5 {
+        background-color: #99ccff;
+      }
+      .contact.day-mode5 h1 {
+        color: #001933;
+      }
+      .my-btn.day-mode5 {
+        background-image: linear-gradient(50deg, #001933 0%, #004c99 50%, #001933 100%);
+        color: #cce5ff;
       }
     /* day-night switch */
 
@@ -156,7 +204,6 @@ h4 {
 .image-abt {
     width: 100%;
     height: auto;
-    box-shadow: 0 130px 140px rgba(0,0,0,.3);
 }
     /* SERVICES */
 .services {
@@ -207,7 +254,6 @@ h4 {
     background-image: linear-gradient(50deg, #0066cc 0%, #99ccff 50%, #0066cc 100%);
     transition: 0.2s;
 }
-
     /* CONTACT */
 .contact {
     background-color: #001933;
@@ -229,7 +275,7 @@ h4 {
     color: #99ccff;
 }
 
-.input {
+input {
     background-image: #c6ffdf;
     border: none;
 }
