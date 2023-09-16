@@ -101,55 +101,6 @@ h4 {
       .switch:checked + .switch-label:before {
         transform: translateX(26px);
       }
-      /* DAY CLASSES */   
-      .hero-gradient.day-mode1 {
-        background-image: linear-gradient(50deg, #edb6da 0%, #589de3 100%) !important;
-    }
-      .hero-gradient.day-mode1 h2 {
-        color: #003366 !important;
-      }
-      .hero-gradient.day-mode1 p {
-        color: #0066cc !important;
-      }
-
-      .day-mode2 {
-        background-color: #cce5ff !important;
-      }
-      .about.day-mode2 p {
-        color: #003366 !important;
-      }
-      .about.day-mode2 h1 {
-        color: #001933;
-      }
-      .about.day-mode2 ul {
-        color: #004c99;
-      }
-
-      .services.day-mode3 {
-        background-color: #3299ff;
-      }
-      .card.day-mode3 {
-        background-color: #003366;
-      }
-      .card.day-mode3:hover {
-        background-color: #001933;
-      }
-
-      .portfolio.day-mode4 {
-        background-color: #66B2FF;
-      }
-
-      .contact.day-mode5 {
-        background-color: #99ccff;
-      }
-      .contact.day-mode5 h1 {
-        color: #001933;
-      }
-      .my-btn.day-mode5 {
-        background-image: linear-gradient(50deg, #001933 0%, #004c99 50%, #001933 100%);
-        color: #cce5ff;
-      }
-    /* day-night switch */
 
 .hero-gradient{
     position: relative;
@@ -158,7 +109,7 @@ h4 {
     background-size: cover;
     color:#cce5ff;
     background-color: #0093E9;
-    background-image: linear-gradient(50deg, #ffc2ea 0%, #001933 100%);
+    background-image: linear-gradient(50deg, #edb6da 0%, #589de3 100%) !important;
     
 }
 
@@ -178,14 +129,14 @@ h4 {
 .hero-title {
     font-size: 7rem;
     text-align: center;
-    color: white;
+    color: #003366;
     font-family: 'Luckiest Guy';
 }
 
 .hero-desc {
     font-size: 1.5rem;
     font-weight: 800;
-    color: #66b2ff;
+    color: #0066cc;
     text-align: center !important;
 }
 /* THE TOP */
@@ -193,26 +144,34 @@ h4 {
 /* THE CONTENT */
     /* ABOUT */
 .about {
-    background-color: #001933;
+    background-color: #cce5ff !important;
     padding-top: 1px;
 
 }
 .ul {
-    color: #cce5ff;
+    color: #004c99;
     font-weight: 600;
 }
 .image-abt {
     width: 100%;
     height: auto;
 }
+
+.about p {
+  color: #003366 !important;
+}
+.about h1 {
+  color: #001933;
+}
+
     /* SERVICES */
 .services {
-    background-color: #03294f;
+    background-color: #3299ff;
     padding-top: 1px;
     padding-bottom: 30px;
 }
 .card {
-    background-color: #004c99;
+    background-color: #003366;
     border: none;
     color: #99ccff;
     padding-bottom: 10px;
@@ -229,7 +188,7 @@ h4 {
 
     /* PORTFOLIO */
 .portfolio {
-    background-color: #002144;
+    background-color: #66b2ff;
     padding-top: 1px;
     padding-bottom: 30px;
 }
@@ -245,24 +204,23 @@ h4 {
     text-decoration: none;
     font-weight: 800;
     font-size: 1em;
-    color: #003366;
     border: none;
     margin: 10px;
     padding: 1em 3em;
     background-size: 300% 300%;
-  
-    background-image: linear-gradient(50deg, #0066cc 0%, #99ccff 50%, #0066cc 100%);
+    background-image: linear-gradient(50deg, #001933 0%, #004c99 50%, #001933 100%);
+    color: #cce5ff;
     transition: 0.2s;
 }
     /* CONTACT */
 .contact {
-    background-color: #001933;
+    background-color: #99ccff;
     padding-top: 1px;
 }
     /* extras */
 .my-h1 {
     font-family: 'Luckiest Guy';
-    color: white;
+    color: #001933;
     font-size: 60px;
 }
 

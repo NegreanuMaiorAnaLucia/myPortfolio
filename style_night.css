@@ -107,7 +107,7 @@ h4 {
     width: 100%;
     height: 50vh;
     background-size: cover;
-    color:#cce5ff;
+    color:#cce5ff !important;
     background-color: #0093E9;
     background-image: linear-gradient(50deg, #ffc2ea 0%, #001933 100%);
     
@@ -129,7 +129,7 @@ h4 {
 .hero-title {
     font-size: 7rem;
     text-align: center;
-    color: white;
+    color: white !important;
     font-family: 'Luckiest Guy';
 }
 
