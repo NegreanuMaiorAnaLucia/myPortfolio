@@ -1,0 +1,238 @@
+/*
+    FONTS
+    --->> Orbit (imported) for every paragraph or text that exists
+    --->> Luckiest Guy (imported) for the titles on the images and other titles
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+/* THE ENTIRE PAGE STYLING IS BELOW */
+body { /* the entire page */
+    font-family: 'Orbit';
+    font-size: 16px;
+}
+
+p {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 800;
+    color: #0af8b5 !important;
+}
+
+.my-link {
+    text-decoration: none;
+    color: #0af8b5;
+}
+
+/* THE ENTIRE PAGE STYLING IS ABOVE */
+
+/* THE TOP */
+.change-clr {
+    color: #cce5ff !important;
+}
+
+#navbar {  /* the navigation bar */
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbarScroll.navbarDark {
+    background-color: rgb(5, 0, 37);
+    filter:brightness(50%);
+    filter: opacity(50%);
+}
+
+.nav-text {
+    color: #cce5ff !important;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-text:hover{
+    color: #3299ff !important;
+}
+
+    /* day-night switch */
+    .switch-container {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      .switch {
+        display: none;
+      }
+      
+      .switch-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ccc;
+        border-radius: 34px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .switch-label:before {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 26px;
+        height: 26px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: transform 0.3s;
+      }
+      
+      .switch:checked + .switch-label {
+        background-color: #ffc2ea;
+      }
+      
+      .switch:checked + .switch-label:before {
+        transform: translateX(26px);
+      }
+
+.hero-gradient{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    color:#cce5ff;
+    background-color: #0093E9;
+    background-image: linear-gradient(50deg, #ffc2ea 0%, #001933 100%);
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-repeat:no-repeat;
+    top: 30%;
+    left: 50%;
+    transform: translate(0%, 50%);
+}
+
+.hero-title {
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    font-family: 'Luckiest Guy';
+}
+
+.hero-desc {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #66b2ff;
+    text-align: center !important;
+}
+/* THE TOP */
+
+/* THE CONTENT */
+    /* ABOUT */
+.about {
+    background-color: #001933;
+    padding-top: 1px;
+
+}
+.ul {
+    color: #cce5ff;
+    font-weight: 600;
+}
+.image-abt {
+    width: 100%;
+    height: auto;
+}
+    /* SERVICES */
+.services {
+    background-color: #03294f;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+.card {
+    background-color: #004c99;
+    border: none;
+    color: #99ccff;
+    padding-bottom: 10px;
+}
+
+.card:hover {
+    background-color: #003366;
+    color: #cce5ff;
+}
+
+.card-titles {
+    text-align: center;
+}
+
+    /* PORTFOLIO */
+.portfolio {
+    background-color: #002144;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+.portfolio-cards {
+    background-color: #007fff;
+}
+.portfolio-image {
+    filter: brightness(60%);
+}
+.my-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1em;
+    color: #003366;
+    border: none;
+    margin: 10px;
+    padding: 1em 3em;
+    background-size: 300% 300%;
+  
+    background-image: linear-gradient(50deg, #0066cc 0%, #99ccff 50%, #0066cc 100%);
+    transition: 0.2s;
+}
+    /* CONTACT */
+.contact {
+    background-color: #001933;
+    padding-top: 1px;
+}
+    /* extras */
+.my-h1 {
+    font-family: 'Luckiest Guy';
+    color: white;
+    font-size: 60px;
+}
+
+.my-p {  /* all the text that is not H. This is later edited by other classes, as well. */
+    font-size: 17px;
+    text-align: center;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #99ccff;
+}
+
+input {
+    background-image: #c6ffdf;
+    border: none;
+}
+
+
+.mymap {
+  border-radius: 100%;
+}
+/* THE CONTENT */
